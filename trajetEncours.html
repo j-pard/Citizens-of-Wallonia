@@ -13,8 +13,53 @@
       <title>Citizens of Wallonia</title>
 </head>
 <body>
+    <header>
+        <div class="row m-0" id="menu">
+            <div id="menu-content" class="text-right">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="profil.html">Profil</a>
+                        </li>
+                        <li>
+                            <a href="agenda.html">Agenda</a>
+                        </li>
+                        <li>
+                            <a>Trajets</a>
+                            <ul style="padding-left: 2vh; font-size: smaller;">
+                                <li><a href="trajetHistorique.html">Mes trajets</a></li>
+                                <li><a href="trajetEncours.html">En cours</a></li>
+                                <li><a href="trajetNew.html">Programmer un trajet</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="ami.html">Mes amis</a>
+                        </li>
+                        <li>
+                            <a href="succes.html">Succès</a>
+                        </li>
+                        <li>
+                            <a href="index.html">Log out</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+                <button id="menu-button" class="col-6 text-left">&#9776;</button>
+            <div id="menu-sidebar">
+                <div id="menu-side-head"></div>
+                <div id="menu-side-body"></div>
+            </div>
+            <div id="menu-overlay"></div>
+        </div>
 
-    <h2 class="container text-center mt-4 mb-4">En cours</h2>
+            <!-- <div id="divlogo" class="d-flex">
+                <img id="logo" src="assets/css/img/logo.png" alt="logo">
+            </div>   -->
+    </header>
+
+    <main>
+
+    <h2 class="container text-center mt-4 mb-4">Trajet en cours</h2>
 
     <div class="container" style="width: fit-content;">
         <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d40546.194809674824!2d5.503134278394171!3d50.568813765248066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x47c0f9df0ad875bb%3A0x614be07fb51e0c57!2sUniversity%20of%20Li%C3%A8ge%2C%20Place%20du%2020%20Ao%C3%BBt%2C%20Li%C3%A8ge!3m2!1d50.5830803!2d5.559063999999999!4m5!1s0x47c0f8fef7de954d%3A0x40099ab2f4d7010!2sSeraing!3m2!1d50.583883199999995!2d5.4996296!5e0!3m2!1sfr!2sbe!4v1583552293423!5m2!1sfr!2sbe" height="150%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -22,12 +67,12 @@
 
     <!-- Ajout des enfants sur le trajet -->
 
-    <div class="row  mt-4">
-        <div class="col-5 m-2">
-            <img class="img-thumbnail ml-4" src="https://thumbs.dreamstime.com/b/enfant-dr%C3%B4le-little-boy-laid-de-grimace-133879357.jpg" alt="photo profil">
+    <div class="col-12 d-flex justify-content-center mt-5">
+        
+            <img  src="assets/img/avatar3.png" alt="photo profil" style="width:50%;">
         </div>
-        <div class="col-5 m-2 mt-5">
-            <p>Michel Michel</p>
+        <div class="col-6 offset-3 mt-3 text-center">
+            <p>Arthur Dupont</p>
         </div>
     </div>
 
@@ -44,12 +89,12 @@
 
     <!-- FAKE -->
 
-    <div class="row mt-4">
-        <div class="col-5 m-2">
-            <img class="img-thumbnail ml-4" src="https://thumbs.dreamstime.com/b/enfant-dr%C3%B4le-little-boy-laid-de-grimace-133879357.jpg" alt="photo profil">
+    <div class="row  mt-4">
+        <div class="col-12 d-flex justify-content-center">
+            <img  src="assets/img/avatar2.png" alt="photo profil" style="width:50%;">
         </div>
-        <div class="col-5 m-2 mt-5">
-            <p>Michel Michel</p>
+        <div class="col-6 offset-3 mt-3 text-center">
+            <p>Nina Hessani</p>
         </div>
     </div>
     <div class="row">
@@ -58,6 +103,7 @@
             <button type="button" class="btn btn-danger col-2">X</button>
         </div>
     </div>
+    </main>
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

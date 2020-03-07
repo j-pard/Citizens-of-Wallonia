@@ -36,6 +36,8 @@ body {
     height:40vh;
 }
 
+
+
 header{
     display:flex;
     flex-direction: column;
@@ -54,7 +56,6 @@ header{
         color:white;
         font-size: 1.4em;
     }
-
 
 }
 // Menu reponsive
@@ -83,7 +84,7 @@ header{
             }
         }
     }
-    
+
 }
 
 #menu-button{
@@ -177,7 +178,7 @@ header{
     }
     .menu-activated #menu-sidebar{
         transform: translateX(0);
-        
+
     }
 }
 
