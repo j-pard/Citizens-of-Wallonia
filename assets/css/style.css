@@ -14,6 +14,10 @@ body {
   font-family: 'Lobster Two', cursive;
 }
 
+body .logo {
+  font-size: 2.5em;
+}
+
 body ul li {
   list-style: none;
 }
@@ -35,6 +39,10 @@ body section ul li {
 .profil {
   background: #96bf0d;
   height: 40vh;
+}
+
+.btn-index {
+  border-radius: 10px;
 }
 
 header {

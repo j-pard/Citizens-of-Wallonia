@@ -5,6 +5,9 @@
 @import "_headings.scss";
 
 body {
+    & .logo{
+        font-size: 2.5em;
+    }
     text-align: center;
     font-size: 14px;
     font-family: 'Lobster Two', cursive;
@@ -35,7 +38,9 @@ body {
     background: rgb(150,191,13);
     height:40vh;
 }
-
+.btn-index{
+    border-radius: 10px;
+}
 
 
 header{
