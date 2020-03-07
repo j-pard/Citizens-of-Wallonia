@@ -9,7 +9,10 @@
             ],
             "localisation": "Liège",
             "school": "Atlas",
-            "gps": "",
+            "gps": [
+                  50.658787,
+                  5.598834
+            ],
             "friends": [
 
             ],
@@ -32,7 +35,10 @@
             ],
             "localisation": "Liège",
             "school": "Atlas",
-            "gps": "",
+            "gps": [
+                  50.656989,
+                  5.602416
+            ],
             "friends": [
 
             ],
@@ -55,7 +61,10 @@
             ],
             "localisation": "Liège",
             "school": "Atlas",
-            "gps": "",
+            "gps": [
+                  50.655853,
+                  5.600790
+            ],
             "friends": [
 
             ],
