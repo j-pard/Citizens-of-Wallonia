@@ -33,17 +33,17 @@ body {
 
 
 
-    
+
 
 
 header{
     display:flex;
     flex-direction: column;
     font-weight:bold;
-    & h1{    
+    & h1{
         padding-top:2%;
         color:white;
-        font-size: 1.6em;  
+        font-size: 1.6em;
     }
     & h4{
         color:white;
@@ -51,7 +51,7 @@ header{
     }
     border-bottom:1px solid rgb(168, 165, 165);
     background-color:rgb(231, 231, 231);
-    height:20vh;
+    height:10vh;
 
 }
 // Menu reponsive
@@ -80,7 +80,7 @@ header{
             }
         }
     }
-    
+
 }
 
 #menu-button{
@@ -172,7 +172,7 @@ header{
     }
     .menu-activated #menu-sidebar{
         transform: translateX(0);
-        
+
     }
 }
 
