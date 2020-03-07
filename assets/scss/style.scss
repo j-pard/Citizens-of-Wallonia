@@ -5,12 +5,9 @@
 @import "_headings.scss";
 
 body {
-    margin-bottom: 40px;
-    margin-top: 40px;
     text-align: center;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    background:url(http://www.digiphotohub.com/wp-content/uploads/2015/09/bigstock-Abstract-Blurred-Background-Of-92820527.jpg);
+    font-family: 'Lobster Two', cursive;
 
     & ul{
         & li{
@@ -19,7 +16,7 @@ body {
     }
     & section{
         & .agenda{
-            border:1px solid black;
+            // border:1px solid black;
             font-size:1.4em;
         }
         & ul{
@@ -34,24 +31,30 @@ body {
 
 
     
-
+.profil{
+    background: rgb(150,191,13);
+    height:40vh;
+}
 
 header{
     display:flex;
     flex-direction: column;
     font-weight:bold;
+    background: rgb(150,191,13);
+    height:11vh;
     & h1{    
         padding-top:2%;
         color:white;
-        font-size: 1.6em;  
+        font-size: 1.4em;  
+    }
+    & h3{
+        color:white;
     }
     & h4{
         color:white;
-        font-size: 1em;
+        font-size: 1.4em;
     }
-    border-bottom:1px solid rgb(168, 165, 165);
-    background-color:rgb(231, 231, 231);
-    height:20vh;
+
 
 }
 // Menu reponsive
@@ -85,6 +88,7 @@ header{
 
 #menu-button{
     display:none;
+    color: white;
     border:none;
     cursor: pointer;
     background:none;
@@ -114,10 +118,11 @@ header{
     background-color:white;
     transform: translateX(-100%);
     transition: transform .2s ease-out;
+    background: rgb(150,191,13);
     & li{
         display:block;
         & a{
-            color:rgb(59, 58, 58);
+            color:rgb(255, 255, 255);
             font-size:1.7em;
         }
     }

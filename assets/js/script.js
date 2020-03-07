@@ -29,6 +29,18 @@ overlay.addEventListener("click", function(e){
     e.preventDefault();
     this.parentNode.classList.remove(activateclass);
 });
+
+// MAPS AMI
+
+fetch("./ressources/users.json")
+            .then((res) => res.json())
+            .then((data) => {
+                console.log(data[0].firstname)
+            })
+            .catch((error) => {
+                console.log('Erreur: ', error);
+            });
+
+
+
 })();
-
-
