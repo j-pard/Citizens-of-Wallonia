@@ -16,6 +16,8 @@ body {
 
 body .logo {
   font-size: 2.5em;
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
 }
 
 body ul li {
