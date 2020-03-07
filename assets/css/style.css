@@ -41,10 +41,6 @@ body section ul li {
   height: 40vh;
 }
 
-.btn-index {
-  border-radius: 10px;
-}
-
 header {
   display: -webkit-box;
   display: -ms-flexbox;
