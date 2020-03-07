@@ -33,7 +33,7 @@ overlay.addEventListener("click", function(e){
 fetch("./ressources/users.json")
             .then((res) => res.json())
             .then((data) => {
-                console.log(data[0].firstname)
+                //console.log(data[0].firstname)
             })
             .catch((error) => {
                 console.log('Erreur: ', error);

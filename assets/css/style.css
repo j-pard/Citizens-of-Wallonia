@@ -153,7 +153,6 @@ header h4 {
 }
 
 #menu-side-head {
-  background-image: url("img/bannernav.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -162,40 +161,6 @@ header h4 {
 
 #menu-side-body {
   padding: 16px 8px;
-}
-
-#menu-side-body li:before {
-  content: ' ';
-  display: inline-block;
-  vertical-align: middle;
-  width: 24px;
-  height: 24px;
-  margin: 0px 16px 0px 4px;
-}
-
-#menu-side-body li:first-child:before {
-  background-image: url("img/home.svg");
-  background-size: cover;
-}
-
-#menu-side-body li:nth-child(2):before {
-  background-image: url("img/code.svg");
-  background-size: cover;
-}
-
-#menu-side-body li:nth-child(3):before {
-  background-image: url("img/code.svg");
-  background-size: cover;
-}
-
-#menu-side-body li:nth-child(4):before {
-  background-image: url("img/man.svg");
-  background-size: cover;
-}
-
-#menu-side-body li:nth-child(5):before {
-  background-image: url("img/contact.svg");
-  background-size: cover;
 }
 
 @media screen and (max-width: 1024px) {
