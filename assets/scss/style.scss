@@ -5,5 +5,177 @@
 @import "_headings.scss";
 
 body {
-      
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background:url(http://www.digiphotohub.com/wp-content/uploads/2015/09/bigstock-Abstract-Blurred-Background-Of-92820527.jpg);
+
+    & ul{
+        & li{
+            list-style: none;
+        }
+    }
+    & section{
+        & .agenda{
+            border:1px solid black;
+            font-size:1.4em;
+        }
+        & ul{
+            display:inline-flex;
+            & li{
+                list-style: none;
+            }
+        }
+    }
 }
+
+
+
+    
+
+
+header{
+    display:flex;
+    flex-direction: column;
+    font-weight:bold;
+    & h1{    
+        padding-top:2%;
+        color:white;
+        font-size: 1.6em;  
+    }
+    & h4{
+        color:white;
+        font-size: 1em;
+    }
+    border-bottom:1px solid rgb(168, 165, 165);
+    background-color:rgb(231, 231, 231);
+    height:20vh;
+
+}
+// Menu reponsive
+#menu, #menu-content{
+    display:inline;
+}
+
+#menu-content{
+    z-index: 20;
+    position: fixed;
+    color:white;
+    background-color:#F16529;
+    width:100%;
+    padding: 1% 2%;
+    & ul li{
+        display:inline-flex;
+        margin-left:1%;
+        & a{
+            color:white;
+            font-size: 0.8em;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration: none;
+            &:hover{
+                color:rgba(23, 230, 230, 0.452);
+            }
+        }
+    }
+    
+}
+
+#menu-button{
+    display:none;
+    border:none;
+    cursor: pointer;
+    background:none;
+    font-size:30px;
+    float:left;
+    margin-top:10px;
+    margin-left:30px;
+}
+#menu-overlay{
+    display:none;
+    position:fixed;
+    z-index:10;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+#menu-sidebar{
+    position:fixed;
+    width:84%;
+    z-index:20;
+    height:100%;
+    top:0;
+    left:0;
+    background-color:white;
+    transform: translateX(-100%);
+    transition: transform .2s ease-out;
+    & li{
+        display:block;
+        & a{
+            color:rgb(59, 58, 58);
+            font-size:1.7em;
+        }
+    }
+}
+#menu-side-head{
+    background-image: url("img/bannernav.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:18vh;
+}
+#menu-side-body{
+    padding: 16px 8px;
+    & li:before{
+        content: ' ';
+        display: inline-block;
+        vertical-align: middle;
+        width:24px;
+        height: 24px;
+        margin: 0px 16px 0px 4px;
+    }
+    & li:first-child:before{
+        background-image: url("img/home.svg");
+        background-size:cover;
+    }
+    & li:nth-child(2):before{
+        background-image: url("img/code.svg");
+        background-size: cover;
+    }
+    & li:nth-child(3):before{
+        background-image: url("img/code.svg");
+        background-size: cover;
+    }
+    & li:nth-child(4):before{
+        background-image: url("img/man.svg");
+        background-size: cover;
+    }
+    & li:nth-child(5):before{
+        background-image: url("img/contact.svg");
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:1024px){
+
+    #menu-content{
+        display:none;
+    }
+
+    #menu-button, #menu-sidebar, .menu-activated #menu-overlay{
+        display:block;
+    }
+    .menu-activated #menu-sidebar{
+        transform: translateX(0);
+        
+    }
+}
+
+
+// Calendrier
+
