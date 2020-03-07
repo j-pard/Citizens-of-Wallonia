@@ -1,6 +1,4 @@
-( () => {
-
-    // NAVBAR
+// NAVBAR
 
 let content= document.querySelector('#menu-content');
 let sidebarBody= document.querySelector("#menu-side-body");
@@ -29,6 +27,3 @@ overlay.addEventListener("click", function(e){
     e.preventDefault();
     this.parentNode.classList.remove(activateclass);
 });
-})();
-
-

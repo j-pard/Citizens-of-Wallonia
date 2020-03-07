@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>CITIZEN OF WALOONIA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/126bbe9047.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- ! Togler side bar -->
+	<div class="wrapper d-flex align-items-stretch">
+		<nav id="sidebar">
+			<div class="custom-menu">
+				<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	      		<i class="fas fa-trophy fa-2x"></i>
+	      <span class="sr-only">Toggle Menu</span>
+	    </button>
+    </div>
+    <!-- ! Togler  sidebar -->
+
+    <!-- Sidebar main -->
+			<div class="p-4">
+	  		<h1><a href="index.html" class="logo"><h2>Vos trophée</h2></a></h1>
+	    <ul class="list-unstyled components mb-5">
+	      <li class="active">
+	        <a href="#"><span class="fas fa-medal fa-2x"></span> Le Commencement</a>
+	      </li>
+	      <li>
+	          <a href="#"><span class="fas fa-medal fa-2x"></span> Capitaine trieur</a>
+	      </li>
+	      <li>
+	      <a href="#"><span class="fas fa-medal fa-2x"></span> Pieds de fer</a>
+	      </li>
+	      <li>
+	      <a href="#"><span class="fas fa-medal fa-2x"></span> Le medaillez !</a>
+	      </li>
+	      <li>
+	      <a href="#"><span class="fas fa-medal fa-2x"></span> Collonelle respect</a>
+	      </li>
+	      <li>
+	      <a href="#"><span class="fas fa-medal fa-2x"></span> Monsieur</a>
+	      </li>
+	      <li>
+	      <a href="#"><span class="fas fa-medal fa-2x"></span> idk</a>
+	      </li>
+	    </ul>
+
+	        	<div class="mb-5">
+						<h3 class="h6 mb-3">Recevoir nos publicité</h3>
+						<form action="#" class="subscribe-form">
+	            <div class="form-group d-flex">
+
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+		<section>
+			<div class="d-flex justify-content-center" id="canvas">
+				<div class="circle" id="circles-1"></div>
+			</div>
+			
+			<div class="list-group-flush">
+				<br>
+				<div class="list-group-item">
+				  <p class="mb-0"><i class="far fa-star fa-3x mr-4 grey p-3 white-text rounded-circle " aria-hidden="true"></i>Nomade de l'ecole</p>
+				</div>
+				<br>
+				<div class="list-group-item">
+				  <label class="mb-0"> <i class="far fa-star fa-3x mr-4 mr-4 grey p-3 white-text rounded-circle" aria-hidden="true"></i>Flash</label>
+				  
+				</div>
+				<br>
+				<div class="list-group-item">
+				  <p class="mb-0"><i class="far fa-star fa-3x mr-4 mr-4 grey p-3 white-text rounded-circle" aria-hidden="true"></i>Reussite ecologique !</p>
+				</div>
+				<br>
+			  </div>
+			</section>
+      </div>
+		</div>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/popper.js"></script>
+	<script src="./assets/js/main.js"></script>
+	<script src="./assets/js/circles.js"></script>
+	
+
+
+	<script>
+		var colors = [
+				['#F8F9B6', '#F2D558']
+			],
+			circles = [];
+
+		for (var i = 1; i <= 5; i++) {
+			var child = document.getElementById('circles-' + i),
+				percentage = 31.42 + (i * 9.84),
+				
+				circle = Circles.create({
+					id:         child.id,
+					value:      percentage,
+					radius:     getWidth(),
+					width:      10,
+					colors:     colors[i - 1]
+				});
+
+			circles.push(circle);
+		}
+
+		window.onresize = function(e) {
+			for (var i = 0; i < circles.length; i++) {
+				circles[i].updateRadius(getWidth());
+			}
+		};
+
+		function getWidth() {
+			return window.innerWidth / 20;
+		}
+
+    </script>
+  </body>
+</html>
