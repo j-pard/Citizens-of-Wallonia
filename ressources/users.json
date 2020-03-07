@@ -1,0 +1,71 @@
+[
+      {
+            "id": 0,
+            "firstname": "Nina",
+            "lastname": "Hessani",
+            "password": "123",
+            "parents": [
+
+            ],
+            "localisation": "Liège",
+            "school": "Atlas",
+            "gps": "",
+            "friends": [
+
+            ],
+            "paths": [
+
+            ],
+            "points": 0,
+            "success": [
+
+            ]
+
+      },
+      {
+            "id": 1,
+            "firstname": "Céline",
+            "lastname": "Bigan",
+            "password": "123",
+            "parents": [
+
+            ],
+            "localisation": "Liège",
+            "school": "Atlas",
+            "gps": "",
+            "friends": [
+
+            ],
+            "paths": [
+
+            ],
+            "points": 0,
+            "success": [
+
+            ]
+
+      },
+      {
+            "id": 2,
+            "firstname": "Jean-Eude",
+            "lastname": "Dupont",
+            "password": "123",
+            "parents": [
+
+            ],
+            "localisation": "Liège",
+            "school": "Atlas",
+            "gps": "",
+            "friends": [
+
+            ],
+            "paths": [
+
+            ],
+            "points": 0,
+            "success": [
+
+            ]
+
+      }
+]
