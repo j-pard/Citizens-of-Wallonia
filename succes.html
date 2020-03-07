@@ -5,124 +5,168 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/126bbe9047.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+	<header>
+        <div class="row m-0" id="menu">
+            <div id="menu-content">
+                <nav class="text-left">
+                    <ul>
+                        <li>
+                            <a href="profil.html">Profil</a>
+                        </li>
+                        <li>
+                            <a href="agenda.html">Agenda</a>
+                        </li>
+                        <li>
+                            <a>Trajets</a>
+                            <ul style="padding-left: 2vh; font-size: smaller;">
+                                <li><a href="trajetHistorique.html">Mes trajets</a></li>
+                                <li><a href="trajetEncours.html">En cours</a></li>
+                                <li><a href="trajetNew.html">Programmer</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="ami.html">Mes amis</a>
+                        </li>
+                        <li>
+                            <a href="succes.html">Succès</a>
+                        </li>
+                        <li>
+                            <a href="index.html">Log out</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+                <button id="menu-button" class="col-6 text-left">&#9776;</button>
+            <div id="menu-sidebar">
+                <div id="menu-side-head"></div>
+                <div id="menu-side-body"></div>
+            </div>
+            <div id="menu-overlay"></div>
+        </div>
+
+            <!-- <div id="divlogo" class="d-flex">
+                <img id="logo" src="assets/css/img/logo.png" alt="logo">
+            </div>   -->
+    </header>
+
+	<main>
     <!-- ! Togler side bar -->
 	<div class="wrapper d-flex align-items-stretch">
 		<nav id="sidebar">
 			<div class="custom-menu">
 				<button type="button" id="sidebarCollapse" class="btn btn-primary">
-	      		<i class="fas fa-trophy fa-2x"></i>
-	      <span class="sr-only">Toggle Menu</span>
-	    </button>
-    </div>
+	    		<i class="fas fa-trophy fa-2x"></i>
+	    		<span class="sr-only">Toggle Menu</span>
+	    		</button>
+			</div>
+
     <!-- ! Togler  sidebar -->
 
     <!-- Sidebar main -->
-			<div class="p-4">
-	  		<h1><a href="index.html" class="logo"><h2>Vos trophée</h2></a></h1>
-	    <ul class="list-unstyled components mb-5">
-	      <li class="active">
-	        <a href="#"><span class="fas fa-medal fa-2x"></span> Le Commencement</a>
-	      </li>
-	      <li>
-	          <a href="#"><span class="fas fa-medal fa-2x"></span> Capitaine trieur</a>
-	      </li>
-	      <li>
-	      <a href="#"><span class="fas fa-medal fa-2x"></span> Pieds de fer</a>
-	      </li>
-	      <li>
-	      <a href="#"><span class="fas fa-medal fa-2x"></span> Le medaillez !</a>
-	      </li>
-	      <li>
-	      <a href="#"><span class="fas fa-medal fa-2x"></span> Collonelle respect</a>
-	      </li>
-	      <li>
-	      <a href="#"><span class="fas fa-medal fa-2x"></span> Monsieur</a>
-	      </li>
-	      <li>
-	      <a href="#"><span class="fas fa-medal fa-2x"></span> idk</a>
-	      </li>
-	    </ul>
+	<div class="p-4">
+			<h2 class="logo" style="color: #fff;">Vos trophées</h2>
+		<ul class="list-unstyled text-left">
+			<li class="pt-3 ">
+				<span class="fas fa-medal fa-2x"></span> Le Commencement
+			</li>
+			<li class="pt-3">
+				<span class="fas fa-medal fa-2x"></span> Capitaine trieur
+			</li>
+			<li class="pt-3">
+				<span class="fas fa-medal fa-2x"></span> Pieds de fer
+			</li>
+			<li class="pt-3">
+				<span class="fas fa-medal fa-2x"></span> Le medaillé !
+			</li>
+			<li class="pt-3">
+				<span class="fas fa-medal fa-2x"></span> Collonelle respect
+			</li>
+			<li class="pt-3">
+				<span class="fas fa-medal fa-2x"></span> Monsieur
+			</li>
+			<li class="pt-3">
+				<span class="fas fa-medal fa-2x"></span> IDK
+			</li>
+		</ul>
 
-	        	<div class="mb-5">
-						<h3 class="h6 mb-3">Recevoir nos publicité</h3>
-						<form action="#" class="subscribe-form">
-	            <div class="form-group d-flex">
+		<div class="mb-5">
+				<h3 class="mb-3 pt-4" style="font-size: 1em;">Recevoir nos publicité</h3>
+				<form action="#" class="subscribe-form">
+		<div class="form-group d-flex">
 
 
-	      </div>
-    	</nav>
+	    </div>
+    </nav>
 
         <!-- Page Content  -->
-      <div id="content" class="p-4 p-md-5 pt-5">
+    <div id="content" class="container mx-5 mt-5">
 		<section>
 			<div class="d-flex justify-content-center" id="canvas">
 				<div class="circle" id="circles-1"></div>
 			</div>
-			
-			<div class="list-group-flush">
-				<br>
-				<div class="list-group-item">
-				  <p class="mb-0"><i class="far fa-star fa-3x mr-4 grey p-3 white-text rounded-circle " aria-hidden="true"></i>Nomade de l'ecole</p>
-				</div>
-				<br>
-				<div class="list-group-item">
-				  <label class="mb-0"> <i class="far fa-star fa-3x mr-4 mr-4 grey p-3 white-text rounded-circle" aria-hidden="true"></i>Flash</label>
-				  
-				</div>
-				<br>
-				<div class="list-group-item">
-				  <p class="mb-0"><i class="far fa-star fa-3x mr-4 mr-4 grey p-3 white-text rounded-circle" aria-hidden="true"></i>Reussite ecologique !</p>
-				</div>
-				<br>
-			  </div>
-			</section>
-      </div>
-		</div>
 
+			<div class="list-group-flush text-left">
+				<div class="list-group-item mt-2">
+					<p><i class="far fa-star fa-3x mr-3 grey p-3 white-text" aria-hidden="true"></i>Nomade de l'école</p>
+				</div>
+				<div class="list-group-item mt-3">
+					<p><i class="far fa-star fa-3x mr-3 grey p-3 white-text" aria-hidden="true"></i>Flash</p>
+				</div>
+				<div class="list-group-item mt-3">
+					<p><i class="far fa-star fa-3x mr-3 grey p-3 white-text" aria-hidden="true"></i>Réussite écologique !</p>
+				</div>
+				<br>
+			</div>
+		</section>
+    </div>
+</main>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="assets/js/script.js"></script>
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/popper.js"></script>
 	<script src="./assets/js/main.js"></script>
 	<script src="./assets/js/circles.js"></script>
-	
 
 
-	<script>
-		var colors = [
-				['#F8F9B6', '#F2D558']
-			],
-			circles = [];
 
-		for (var i = 1; i <= 5; i++) {
-			var child = document.getElementById('circles-' + i),
-				percentage = 31.42 + (i * 9.84),
-				
-				circle = Circles.create({
-					id:         child.id,
-					value:      percentage,
-					radius:     getWidth(),
-					width:      10,
-					colors:     colors[i - 1]
-				});
+		<script>
+			var colors = [
+					['#F8F9B6', '#F2D558']
+				],
+				circles = [];
 
-			circles.push(circle);
-		}
+			for (var i = 1; i <= 5; i++) {
+				var child = document.getElementById('circles-' + i),
+					percentage = 31.42 + (i * 9.84),
 
-		window.onresize = function(e) {
-			for (var i = 0; i < circles.length; i++) {
-				circles[i].updateRadius(getWidth());
+					circle = Circles.create({
+						id:         child.id,
+						value:      percentage,
+						radius:     getWidth(),
+						width:      10,
+						colors:     colors[i - 1]
+					});
+
+				circles.push(circle);
 			}
-		};
 
-		function getWidth() {
-			return window.innerWidth / 20;
-		}
+			window.onresize = function(e) {
+				for (var i = 0; i < circles.length; i++) {
+					circles[i].updateRadius(getWidth());
+				}
+			};
 
-    </script>
-  </body>
+			function getWidth() {
+				return window.innerWidth / 6;
+			}
+    	</script>
+	</body>
 </html>

@@ -203,12 +203,14 @@ header h4 {
   display: inline-block;
   margin: 1em;
   z-index: 10;
+  height: 20vh;
 }
 
 .circles-decimals {
   font-size: .4em;
 }
  /* ! Ajout sidebar sur PAGE : succes*/
+
  .wrapper {
   width: 100%; }
 
@@ -268,7 +270,7 @@ header h4 {
     margin-right: -20px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
-    transition: 0.3s; 
+    transition: 0.3s;
   }
     @media (prefers-reduced-motion: reduce) {
       #sidebar .custom-menu {
@@ -279,7 +281,7 @@ header h4 {
       width: 60px;
       height: 60px;
       border-radius: 50%;
-      position: relative; 
+      position: relative;
     }
       #sidebar .custom-menu .btn i {
         margin-right: -40px;
@@ -287,7 +289,7 @@ header h4 {
        }
       #sidebar .custom-menu .btn.btn-primary {
         background: transparent;
-        border-color: transparent; 
+        border-color: transparent;
       }
         #sidebar .custom-menu .btn.btn-primary:after {
           z-index: -1;
@@ -304,11 +306,11 @@ header h4 {
           border-radius: 10px; }
         #sidebar .custom-menu .btn.btn-primary:hover, #sidebar .custom-menu .btn.btn-primary:focus {
           background: transparent !important;
-          border-color: transparent !important; 
+          border-color: transparent !important;
         }
 
 a[data-toggle="collapse"] {
-  position: relative; 
+  position: relative;
 }
 
 .dropdown-toggle::after {
@@ -334,11 +336,11 @@ a[data-toggle="collapse"] {
 
 .btn.btn-primary {
   background: #3445b4;
-  border-color: #3445b4; 
+  border-color: #3445b4;
 }
   .btn.btn-primary:hover, .btn.btn-primary:focus {
     background: #3445b4 !important;
-    border-color: #3445b4 !important; 
+    border-color: #3445b4 !important;
   }
 
 
