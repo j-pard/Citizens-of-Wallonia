@@ -16,6 +16,7 @@ document.getElementById("true1").addEventListener("click", () => {
 document.getElementById("false1").addEventListener("click", () => {
     document.getElementById("b1").innerHTML= "";
     document.getElementById("user1").innerHTML= "";
+    document.getElementById("user1bottom").innerHTML= "";
 })
 
 document.getElementById("true2").addEventListener("click", () => {
