@@ -9,13 +9,12 @@ let child = document.getElementById('circles-' + i),
     percentage = 31.42 + (i * 9.84),
     
     circle = Circles.create({
-        id:         child.id,
+        id:         "circles-1",
         value:      percentage,
         radius:     getWidth(),
         width:      10,
         colors:     colors[i - 1]
     });
-
 circles.push(circle);
 }
 
