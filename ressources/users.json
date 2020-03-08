@@ -1,12 +1,14 @@
-[
+﻿[
       {
             "id": 0,
             "firstname": "Nina",
             "lastname": "Hessani",
             "password": "123",
-            "children": [
+	    "email": " ninahessani@hotmail.com",
+            "parents": [
 
             ],
+	    "phonenumber": "0476/32.34.53",
             "localisation": "Liège",
             "school": "Atlas",
             "gps": [
@@ -22,7 +24,17 @@
             "points": 0,
             "success": [
 
-            ]
+            ],
+
+ 	    "todo": [
+		"07:55 : Passer chercher Louis",
+		"08:02 : Passer chercher Jacqueline"
+          ],
+          
+	    "tovalide": [
+		"15:55 : Arthur Dupont",
+		"15:58 : Nina Hessani"
+	    ]
 
       },
       {
@@ -30,7 +42,7 @@
             "firstname": "Céline",
             "lastname": "Bigan",
             "password": "123",
-            "children": [
+            "parents": [
 
             ],
             "localisation": "Liège",
@@ -56,7 +68,7 @@
             "firstname": "Jean-Eude",
             "lastname": "Dupont",
             "password": "123",
-            "children": [
+            "parents": [
 
             ],
             "localisation": "Liège",

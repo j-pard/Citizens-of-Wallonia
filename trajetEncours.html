@@ -33,7 +33,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="ami.html">Mes amis</a>
+                            <a href="ami.html">Parent's à proximité</a>
                         </li>
                         <li>
                             <a href="succes.html">Succès</a>
@@ -64,18 +64,18 @@
 
     <h2 class="container text-center mt-4 mb-4">Trajet en cours</h2>
 
-    <div class="container" style="width: fit-content;">
+    <div class="container" style="width: fit-content;" id="mapsinprog">
         <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d40546.194809674824!2d5.503134278394171!3d50.568813765248066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x47c0f9df0ad875bb%3A0x614be07fb51e0c57!2sUniversity%20of%20Li%C3%A8ge%2C%20Place%20du%2020%20Ao%C3%BBt%2C%20Li%C3%A8ge!3m2!1d50.5830803!2d5.559063999999999!4m5!1s0x47c0f8fef7de954d%3A0x40099ab2f4d7010!2sSeraing!3m2!1d50.583883199999995!2d5.4996296!5e0!3m2!1sfr!2sbe!4v1583552293423!5m2!1sfr!2sbe" height="150%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
 
     <!-- Ajout des enfants sur le trajet -->
 
-    <div class="col-12 d-flex justify-content-center mt-5">
+    <div class="col-12 d-flex justify-content-center mt-5" id="user1">
         
             <img  src="assets/img/avatar3.png" alt="photo profil" style="width:50%;">
         </div>
         <div class="col-6 offset-3 mt-3 text-center">
-            <p>Arthur Dupont</p>
+            <p id="tovalide1">Arthur Dupont</p>
         </div>
     </div>
 
@@ -84,26 +84,26 @@
     <div class="container"><!--  INSERER TEMPLATE AMI  --></div>
 
     <div class="row">
-        <div class="container  mt-1 mb-3" style="text-align: center;">
-            <button type="button" class="btn btn-success col-2">V</button>
-            <button type="button" class="btn btn-danger col-2">X</button>
+        <div class="container  mt-1 mb-3" style="text-align: center;" id="b1">
+            <button type="button" class="btn btn-success col-2" id="true1">V</button>
+            <button type="button" class="btn btn-danger col-2" id="false1">X</button>
         </div>
     </div>
 
     <!-- FAKE -->
 
-    <div class="row  mt-4">
+    <div class="row  mt-4" id="user2">
         <div class="col-12 d-flex justify-content-center">
             <img  src="assets/img/avatar2.png" alt="photo profil" style="width:50%;">
         </div>
         <div class="col-6 offset-3 mt-3 text-center">
-            <p>Nina Hessani</p>
+            <p id="tovalide2">Nina Hessani</p>
         </div>
     </div>
     <div class="row">
-        <div class="container mt-1 mb-3" style="text-align: center;">
-            <button type="button" class="btn btn-success col-2">V</button>
-            <button type="button" class="btn btn-danger col-2">X</button>
+        <div class="container mt-1 mb-3" style="text-align: center;" id="b2">
+            <button type="button" class="btn btn-success col-2" id="true2">V</button>
+            <button type="button" class="btn btn-danger col-2" id="false2">X</button>
         </div>
     </div>
     </main>
@@ -111,6 +111,7 @@
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      <script src="assets/js/script.js"></script>
+      <script src="assets/js/trajet.js"></script>
+      <script src="assets/js/navbar.js"></script>
 </body>
 </html>
