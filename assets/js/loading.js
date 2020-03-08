@@ -25,7 +25,7 @@ for (var i = 0; i < circles.length; i++) {
 };
 
 function getWidth() {
-return window.innerWidth / 20;
+return window.innerWidth / 7;
 }
 
 
